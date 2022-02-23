@@ -1,0 +1,206 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+    background: #eee;
+    min-height: 550px;
+    background-attachment: fixed;
+}
+
+.bg {
+    min-height: 540px;
+}
+
+.bg1 {
+    min-height: 535px;
+}
+
+@font-face {
+    font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+}
+
+@font-face {
+    font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+}
+
+.panel {
+    border-color: #eee;
+    margin-top: 4rem;
+    margin-left: 28%;
+    padding: 5rem;
+    padding-top: 1rem;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.panel {
+    border-radius: 40px 40px 40px 40px;
+    background: #000000;
+}
+
+.panel h1 {
+    color: white;
+    margin-bottom: 4rem;
+    font-weight: bold;
+    border-bottom: 1px solid tomato;
+    width: 20rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.title {
+    font-family: 'typo';
+}
+
+.header {
+    background: white;
+    height: 70px;
+}
+
+.logo {
+    font-family: 'typo';
+    font-size: 35px;
+    color: #ffbb33;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.signupbtn {
+    margin-top: 1rem;
+    background: #FF1400;
+    width: 100%;
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 20px 20px;
+}
+
+.signupbtn:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.loginform {
+    background: #213244;
+    padding: 5rem;
+    width: 50rem;
+    border-radius: 30px 30px;
+    margin: auto;
+}
+
+.quizdetails {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.loginform .input-md {
+    margin: auto;
+    width: 30rem;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.btnlogin {
+    width: 30%;
+}
+
+.title1 {
+    font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.title2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.sub1 {
+    width: 90px;
+    color: #202020;
+    background: orange;
+    font-size: 15px;
+    height: 35px;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+}
+
+.footer {
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px solid;
+    border-color: #323232;
+    background-color: #202020;
+}
+
+.footer a {
+    margin: 25px;
+    color: orange;
+    text-decoration: none;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.MyNav {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #69E2FF;
+}
+
+.MyNav a {
+    padding-right: 2rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.MyNav a:hover {
+    color: #21587F;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #9acd32;
+    border-top: 2px solid;
+    border-color: orange;
+}
+
+.box {
+    padding: 9px;
+}
+
+hr {
+    color: #000000;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.log1 {
+    font: 15px 'Ubuntu', sans-serif;
+    color: orange;
+    margin-left: 10px;
+}
+
+.log {
+    margin: 10px;
+    margin-right: 60px;
+    margin-left: 5px;
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+    font-size: 15px;
+}
+
+.log:hover {
+    color: #9acd32;
+    border-top: 2px solid;
+    border-color: orange;
+    text-decoration: none;
+}
