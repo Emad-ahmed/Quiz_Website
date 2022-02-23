@@ -94,8 +94,12 @@ body {
 }
 
 .quizdetails {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 70rem;
+    margin: auto;
+    background-color: #E2D2F9;
+    color: #317874;
 }
 
 .loginform .input-md {
@@ -113,6 +117,10 @@ input::placeholder {
 
 .title1 {
     font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.maintabledesign {
+    border: 1px solid tomato;
 }
 
 .title2 {
